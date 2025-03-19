@@ -3,7 +3,7 @@
     font-family: 'Poppins',cursive;
 }
 body{
-    color: azure;
+    color: rgb(218, 171, 224);
     width: 100%;
     height: 82vh;
     display: flex;
@@ -22,7 +22,7 @@ body{
 }
 
 .botones a{
-    background-color: #0a2be9;
+    background-color: #5234a5;
     padding: 9px;
     border-radius: 80px;
     -webkit-border-radius: 80px;
@@ -33,7 +33,7 @@ body{
 }
 
 .botones a:focus{
-    background-color: rgb(50, 194, 194);
+    background-color: rgb(223, 138, 211);
 }
 
 .greetings{
@@ -45,8 +45,8 @@ body{
 }
 @keyframes glow{
     0%, 100%{
-        color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        color: #e989be;
+        text-shadow: 0 0 12px #d38bd3, 0 0 50px #be86d8, 0 0 100px #ce8bca;
     }
     10%, 90%{
         color: #111;
